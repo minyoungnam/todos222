@@ -15,20 +15,20 @@
     - map을 사용할 때 **반드시 key**을 넣어야 하며, `map` 의 **index를 사용을 금지**합니다. 이것을 금지하는 이유는 강의에 다루었습니다.
     - Todo Id 생성 시 `todos.length` 사용해서 생성하지 않습니다. `todos.length` 을 사용해서 id 생성 시 **발생할 수 있는 문제점에 대해 고민**해보시길 바랍니다.
     
-    
-    
+  https://user-images.githubusercontent.com/128782170/233903322-1bbe81d6-5c8f-4d9d-834e-b4c93e7f4972.mp4
+  
 ## components
 1. Container.jsx
--맨 위 박스
+    -맨 위 박스
 2. AddForm.jsx
--제목, 내용 추가하기
+    -제목, 내용 추가하기
 3. WorkingTodo.jsx
--완료되지 않은 데이터
+    -완료되지 않은 데이터
 4. Donetodo.jsx
--완료된 데이터
+    -완료된 데이터
 
 ## pages : Router.js를 통해 App.js 연결
 1. Home.jsx
--메인 페이지
+    -메인 페이지
 2. Detail.jsx
--상세보기 누르면 넘어가는 페이지
+    -상세보기 누르면 넘어가는 페이지
