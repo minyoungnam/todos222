@@ -19,16 +19,16 @@
     
 ## components
 1. Container.jsx
-맨 위 박스
+-맨 위 박스
 2. AddForm.jsx
-제목, 내용 추가하기
+-제목, 내용 추가하기
 3. WorkingTodo.jsx
-완료되지 않은 데이터
+-완료되지 않은 데이터
 4. Donetodo.jsx
-완료된 데이터
+-완료된 데이터
 
 ## pages : Router.js를 통해 App.js 연결
 1. Home.jsx
-메인 페이지
+-메인 페이지
 2. Detail.jsx
-상세보기 누르면 넘어가는 페이지
+-상세보기 누르면 넘어가는 페이지
