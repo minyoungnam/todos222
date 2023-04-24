@@ -27,7 +27,7 @@ const Detail = () => {
       <Layout>
         <Box>
         <BackB>
-        <h5>ID : {foundData.id}</h5>
+        <h4>ID : {foundData.id}</h4>
         <BackButton onClick={()=>{navigate('/')}}>이전으로</BackButton>
         </BackB>
         <h3>{foundData.title}</h3>
@@ -44,35 +44,29 @@ const Layout = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
+  align-items: center;  // 각각 요소들을 수직 방향으로 정렬
+  justify-content: center;  // 각각 요소들을 수평 방향으로 정렬
 
 `;
 
 const Box = styled.div`
-  width: 600px;
-  height: 400px;
-  border: 1px solid rgb(238, 238, 238);
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgb(118, 175, 155);
+  border-radius: 5px;
   display: flex;
-  flex-direction: column;
-  -webkit-box-pack: justify;
+  flex-direction: column; // Flex 컨테이너 내의 요소들을 수직 방향으로 정렬
   justify-content: space-between;
   padding: 50px;
 `
 const BackB = styled.div`
   display: flex;
-  height: 80px;
-  -webkit-box-pack: justify;
+  height: 60px;
   justify-content: space-between;
-  padding: 0px 24px;
-  -webkit-box-align: center;
-  align-items: center;
 `;
 
 const BackButton = styled.button`
-  border: 1px solid rgb(221, 221, 221);
+  border: 1px solid rgb(255, 203, 144);
   height: 40px;
   width: 120px;
   background-color: rgb(255, 255, 255);
